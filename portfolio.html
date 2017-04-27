@@ -3,13 +3,21 @@
 <head>
 	<title>My Super Sweet Portfolio</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body background="assets/images/wood.png">
 <header>
-	<h1>Caleb Sandowich</h1>
-		<a href="index.html">About</a>
-		<a href="portfolio.html">Portfolio</a>
-		<a href="contact.html">Contact</a>
+	<nav class="container">
+		<h1>Caleb Sandowich</h1>
+			<ul>
+				<li><a id="about" href="index.html">About</a></li>
+				<li><a id="port" href="portfolio.html">Portfolio</a></li>
+				<li><a id="cont" href="contact.html">Contact</a></li>
+			</ul>
+				
+	</nav>
+		
 </header>
 <body>
 	<a href="#"><img src="/images/maxresdefault.jpg">Hangman</a>
@@ -20,22 +28,22 @@
 	
 
 
-<div>
+<aside>
 			<h3>Connect with Me</h3>
-			<a href="https://github.com/csandowich">
-				<img src="github.png"></a>
+				<div class="connect">
+						<a href="https://github.com/csandowich"><img class="git" src="assets/images/github.png"></a>
 
-			<a href="https://www.linkedin.com/in/caleb-sandowich-bab9a2a0/">
-				<img src="/images/linkedin-128.png"></a>
+						<a href="https://www.linkedin.com/in/caleb-sandowich-bab9a2a0/"><img class="in" src="assets/images/linkedin.png"></a>
 
-			<a href="http://stackoverflow.com/users/7760193/csandowich">
-				<img src="/images/5333_-_Stackoverflow-128.png"></a>
-		</div>
+						<a href="http://stackoverflow.com/users/7760193/csandowich"><img class="stack" src="assets/images/Stackoverflow.png"></a>
+				</div>
+	</aside>
 
 		<footer>
 
-			<p>© Copyright 2017 Caleb Sandowich</p>
+			<p id="p2">© Copyright 2017 Caleb Sandowich</p>
 
 		</footer>
+
 </body>
 </html>
